@@ -16,20 +16,26 @@ public class Main {
 
         List<String> animales = Arrays.asList(
                 "Perro|TERRESTRE|Guau",
-                "Águila|VOLADOR|Chillido",
-                "Delfín|ACUATICO|Chirrido",
-                "Gato|TERRESTRE|Miau",
                 "Murciélago|VOLADOR|Chirrido",
-                "Pez|ACUATICO|Burbujas",
-                "Elefante|TERRESTRE|Barrito",
+                "Pato|ACUATICO|Cuac",
+                "Gato|TERRESTRE|Miau",
                 "Halcón|VOLADOR|Grito",
-                "Ballena|ACUATICO|Canto",
-                "Conejo|TERRESTRE|Rebuzno",
+                "Ganso|ACUATICO|Graznido",
+                "Vaca|TERRESTRE|Mugido",
                 "Loro|VOLADOR|Habla",
+                "Ballena|ACUATICO|Canto",
+                "Cerdo|TERRESTRE|Oink",
+                "Paloma|VOLADOR|Arrullo",
+                "Cangrejo|ACUATICO|Pinza",
+                "Oveja|TERRESTRE|Beee",
+                "Gaviota|VOLADOR|Chillido",
+                "Delfín|ACUATICO|Chirrido",
+                "Cabra|TERRESTRE|Beee",
+                "Cuervo|VOLADOR|Croar",
                 "Tiburón|ACUATICO|Gruñido",
-                "Caballo|TERRESTRE|Relincho",
-                "Mariposa|VOLADOR|Silencio",
-                "Cangrejo|ACUATICO|Pinza");
+                "Burro|TERRESTRE|Rebuzno",
+                "Golondrina|VOLADOR|Trino",
+                "Carpa|ACUATICO|Chapoteo");
 
         animalServicio.procesarAnimales(animales);
     }
