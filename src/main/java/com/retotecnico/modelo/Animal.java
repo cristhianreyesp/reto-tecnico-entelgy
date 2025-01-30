@@ -2,8 +2,8 @@ package com.retotecnico.modelo;
 
 public abstract class Animal {
 
-    protected String nombre;
-    protected String sonido;
+    public String nombre;
+    public String sonido;
 
     public Animal(String nombre, String sonido) {
         this.nombre = nombre;

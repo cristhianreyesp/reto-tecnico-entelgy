@@ -28,7 +28,7 @@ public class AnimalServicio {
         });
     }
 
-    private Animal crearAnimal(String input) {
+    public Animal crearAnimal(String input) {
         String[] parts = input.split("\\|");
         String name = parts[0];
         String type = parts[1];
